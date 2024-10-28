@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background: black;
+    padding: 40px;
+}
+
+.main-title{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.convertir{
+    margin-top: 20px;
+    background: grey;
+    min-width: 400px;
+    width: 50%;
+    margin: 48px auto 0;
+    padding: 24px 0;
+}
+
+.convertir h2{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.convertir input{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.convertir label{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.convertir select{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.convertir button{
+    display: block;
+    margin: 20px auto;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #2ec8d3;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: 2px solid #0d9da8;
+    width: 300px;
+}
+
+.convertir button:hover{
+    background: #05555b;
+}
+
+.resultado{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+canvas{
+    display: none;
+}
+
+canvas.active{
+    display: block;
+    background: white;
+    margin: 48px 0 0;
+}
